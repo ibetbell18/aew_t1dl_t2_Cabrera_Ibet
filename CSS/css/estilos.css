@@ -1,0 +1,84 @@
+nav {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+
+.menuhorizontal{
+  display:flex;
+  list-style: none;
+  justify-content:space-around;
+}
+.imagen-Bienvenida img {
+  width: 50%;
+  max-width: 900px;
+}
+#pizza {
+  padding: 40px;
+}
+
+#pizza h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contenedor-productos {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.pizza {
+  flex: 0 0 250px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #8eb486;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pizza img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.pizza h3 {
+  margin-bottom: 10px;
+}
+
+.pizza p {
+  margin-bottom: 10px;
+}
+
+.pizza button {
+  background-color: #8eb486;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contenedor {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imagen {
+  width: 80%;
+  float: left;
+}
+.imagen-texto {
+  display: flex;
+  align-items: center;
+}
+
+.imagen-texto img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.texto {
+  width: 50%;
+}

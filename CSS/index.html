@@ -1,27 +1,59 @@
-<HTMl><img src="image/logo_deli_pizza_2.png" alt="Mi imagen"></HTMl>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#">Acerca de nosotros</a></li>
-            <li><a href="#">Pizzas</a></li>
-            <li><a href="#">Complementos</a></li>
-            <li><a href="#">Tiendas</a></li>
-            <li><a href="#">Ordena aquí</a></li>
-        </ul>
-    </nav>
-    <img src="image/banner.jpg" alt="PIZA GRANDE" style="width: 800px; height: 200px;">
-</header>
-<div class=>
-    <div class=>
-      <img src="image/pizza-1.jpg" alt="PIZA 1"style="width: 50px; height: 70px;">
-      <p>PIZZA AMERICANA</p>
-    </div>
-    <div class>
-      <img src="image/pizza-2.jpg" alt="PIZA 2"style="width: 50px; height: 70px;">
-      <p>PIZZA HAWAINA</p>
-    </div>
-    <div class=>
-      <img src="image/pizza-3.jpg" alt="PIZA 3"style="width: 50px; height: 70px;">
-      <p>PIZA VEGETARIANA</p>
-    </div>
-  </div>
+<html>
+<head>
+    <title>Deli Pizza</title>
+</head>
+<link rel="stylesheet" href="css/estilos.css">
+<img src="image/logo_deli_pizza_2.png" width="200" height="200"alt="Delipizza">
+<body>
+    <head>
+        <nav>
+            <ul class="menuhorizontal">
+                <li><a href="#">Acerca de Nosotros</a></li>
+                <li><a href="#">Pizza</a></li>
+                <li><a href="#">Complementos</a></li>
+                <li><a href="#">Tiendas</a></li>
+                <li><a href="#">Ordene Aqui</a></li>
+            </ul>
+            <div class="imagen-Bienvenida">
+                <img src="image/banner.jpg" alt="imagen-Bienvenida">
+            </div>
+            <section id="productos">
+                <h2>Productos Destacados</h2>
+                <div class="contenedor-productos">
+                  <div class="pizza">
+                    <img src="image/pizza-1.jpg" alt="Pizza 1">
+                    <h3>Pizza Americana</h3>
+                    <p> Pizza artesanal con carne de res, chorizo ahumado, pepperoni y lomo ahumado.</p>
+                    <button>Comprar</button>
+                  </div>
+                  <div class="pizza">
+                    <img src="image/pizza-2.jpg" alt="Pizza 2">
+                    <h3>Pizza Hawaiana</h3>
+                    <p>Pizza artesanal con pollo crocante, piña, jamón bondiola ahumada y salsa BBQ.</p>
+                    <button>Comprar</button>
+                  </div>
+                  <div class="pizza">
+                    <img src="image/pizza-3.jpg" alt="Pizza 3">
+                    <h3>Pizza vegetariana</h3>
+                    <p>Pizza artesanal con zucchini, portobellos, tomate en cubos, aceitunas verdes, queso mozzarella, tomillo, aceite de oliva y brotes de arúgula.
+                    </p>
+                    <button>Comprar</button>
+                  </div>
+                </div>
+              </section>
+              <section id="delivery">
+                <div class="imagen-texto">
+                    <img src="image/delivery.jpg" alt="delivery">
+                    <div class="Tu Pedido">
+                        <h1>Estamos mas Cerca</h1>
+                        <p>llevamos tu pedido en media hora o la Pizza es gratis!! </p>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+              <p>Derechos de autor &copy; 2023 Mi sitio web</p>
+            </footer>
+       </nav>
+ </head>
+</body>
